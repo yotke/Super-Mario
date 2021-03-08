@@ -1,0 +1,106 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 16.979 ns
+From           : resetN
+To             : TOP_SIFTACH:inst|COINS_object:inst31|mVGA_RGB[5]
+From Clock     : --
+To Clock       : CLOCK_27
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 14.315 ns
+From           : TOP_SIFTACH:inst|VGA_Controller:inst6|H_Cont[0]
+To             : VGA_R[8]
+From Clock     : CLOCK_27
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 2.612 ns
+From           : altera_internal_jtag~TDO
+To             : altera_reserved_tdo
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 2.507 ns
+From           : altera_internal_jtag~TDIUTAP
+To             : sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_ela_control:ela_control|sld_ela_basic_multi_level_trigger:\basic_multi_level_mbpm_trigger_gen:multi_level_mbpm|lpm_shiftreg:trigger_condition_deserialize|dffs[2]
+From Clock     : --
+To Clock       : altera_internal_jtag~TCKUTAP
+Failed Paths   : 0
+
+Type           : Clock Setup: 'TOP_SIFTACH:inst|misc:inst|VGA_Audio_PLL:p1|altpll:altpll_component|_clk0'
+Slack          : -10.650 ns
+Required Time  : 27.00 MHz ( period = 37.037 ns )
+Actual Time    : 20.97 MHz ( period = 47.687 ns )
+From           : TOP_SIFTACH:inst|step2_MOVE:inst41|ObjectStartX_t[3]
+To             : TOP_SIFTACH:inst|step2Envelop:inst52|mVGA_RGB[6]
+From Clock     : TOP_SIFTACH:inst|misc:inst|VGA_Audio_PLL:p1|altpll:altpll_component|_clk0
+To Clock       : TOP_SIFTACH:inst|misc:inst|VGA_Audio_PLL:p1|altpll:altpll_component|_clk0
+Failed Paths   : 677
+
+Type           : Clock Setup: 'CLOCK_27'
+Slack          : 8.660 ns
+Required Time  : 27.00 MHz ( period = 37.037 ns )
+Actual Time    : 50.72 MHz ( period = 19.718 ns )
+From           : KBD_final:inst1|byterec:inst2|jump
+To             : random_modle:inst4|new_random:inst5|count_out[8]
+From Clock     : CLOCK_27
+To Clock       : CLOCK_27
+Failed Paths   : 0
+
+Type           : Clock Setup: 'altera_internal_jtag~TCKUTAP'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 75.84 MHz ( period = 13.186 ns )
+From           : sld_hub:auto_hub|irf_reg[2][1]
+To             : sld_hub:auto_hub|tdo
+From Clock     : altera_internal_jtag~TCKUTAP
+To Clock       : altera_internal_jtag~TCKUTAP
+Failed Paths   : 0
+
+Type           : Clock Hold: 'CLOCK_27'
+Slack          : -0.183 ns
+Required Time  : 27.00 MHz ( period = 37.037 ns )
+Actual Time    : N/A
+From           : KBD_final:inst1|bitrec:inst8|shift_reg[2]
+To             : KBD_final:inst1|bitrec:inst8|dout[2]
+From Clock     : CLOCK_27
+To Clock       : CLOCK_27
+Failed Paths   : 4
+
+Type           : Clock Hold: 'TOP_SIFTACH:inst|misc:inst|VGA_Audio_PLL:p1|altpll:altpll_component|_clk0'
+Slack          : 0.391 ns
+Required Time  : 27.00 MHz ( period = 37.037 ns )
+Actual Time    : N/A
+From           : TOP_SIFTACH:inst|objects_mux:inst56|score_tens_s[2]
+To             : TOP_SIFTACH:inst|objects_mux:inst56|score_tens_s[2]
+From Clock     : TOP_SIFTACH:inst|misc:inst|VGA_Audio_PLL:p1|altpll:altpll_component|_clk0
+To Clock       : TOP_SIFTACH:inst|misc:inst|VGA_Audio_PLL:p1|altpll:altpll_component|_clk0
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 681
+
+--------------------------------------------------------------------------------------
+
