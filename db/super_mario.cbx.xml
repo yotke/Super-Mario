@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="super_mario">
+		<CBX_INST_ENTRY INSTANCE_NAME="|super_mario|KBD_final:inst1|lpm_constant0:inst14|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_ji8.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|super_mario|Signal_gen:inst2|MSS_XTRCT:inst|MSS_Core:inst|P_DAC_Interface:U3|altsyncram:U2_altsyncram_component" CBX_FILE_NAME="altsyncram_gp81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|super_mario|Signal_gen:inst2|lpm_counter1:inst4|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_6jj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|super_mario|TOP_SIFTACH:inst|floor_draw_object:inst19|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_qlo.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|super_mario|TOP_SIFTACH:inst|step2Envelop:inst52|lpm_divide:Mod1" CBX_FILE_NAME="lpm_divide_qlo.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|super_mario|TOP_SIFTACH:inst|stepEnvelop:inst28|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_qlo.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|super_mario|TOP_SIFTACH:inst|floor_draw_object:inst19|lpm_divide:Mod1" CBX_FILE_NAME="lpm_divide_qlo.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|super_mario|TOP_SIFTACH:inst|smileyfacemove:inst7|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_u4h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|super_mario|TOP_SIFTACH:inst|smileyfacemove:inst7|lpm_mult:Mult1" CBX_FILE_NAME="mult_31t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|super_mario|TOP_SIFTACH:inst|stepEnvelop:inst28|lpm_divide:Mod1" CBX_FILE_NAME="lpm_divide_qlo.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|super_mario|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|lpm_counter:read_pointer_counter" CBX_FILE_NAME="cntr_e0j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|super_mario|Signal_gen:inst2|lpm_counter2:inst14|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_vdj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|super_mario|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|lpm_counter:status_advance_pointer_counter" CBX_FILE_NAME="cntr_rbi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|super_mario|KBD_final:inst1|lpm_constant2:inst6|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_0j6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|super_mario|KBD_final:inst1|lpm_mux1:inst7|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_83e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|super_mario|Signal_gen:inst2|MSS_XTRCT:inst|MSS_Core:inst|P_DAC_Interface:U3|altsyncram:U1_altsyncram_component" CBX_FILE_NAME="altsyncram_gp81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|super_mario|Signal_gen:inst2|lpm_counter3:inst18|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_vdj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|super_mario|TOP_SIFTACH:inst|smileyfacemove:inst7|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_sfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|super_mario|TOP_SIFTACH:inst|step2Envelop:inst52|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_qlo.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|super_mario|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|lpm_mux:mux" CBX_FILE_NAME="mux_8oc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|super_mario|Signal_gen:inst2|MSS_XTRCT:inst|MSS_Core:inst|S_DAC_Interface:U4|altsyncram:U2_altsyncram_component" CBX_FILE_NAME="altsyncram_jp81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|super_mario|Signal_gen:inst2|lpm_add_sub1:inst20|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_9dh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|super_mario|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|lpm_decode:wdecoder" CBX_FILE_NAME="decode_rqf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|super_mario|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|lpm_counter:status_read_pointer_counter" CBX_FILE_NAME="cntr_gui.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|super_mario|Signal_gen:inst2|lpm_add_sub1:inst12|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_9dh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|super_mario|Signal_gen:inst2|lpm_add_sub1:inst21|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_9dh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|super_mario|Signal_gen:inst2|lpm_counter0:inst3|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_vdj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|super_mario|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|altsyncram:\stp_non_zero_ram_gen:stp_buffer_ram" CBX_FILE_NAME="altsyncram_7ms3.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
